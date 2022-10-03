@@ -1,21 +1,21 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
-import HeadBack from "../Imagens/Grupo de máscara 2.png";
+import HeadBack from "../Imagens/backgroundHeader.png";
 
 export const GlobalStyle = createGlobalStyle`
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-        list-style:none;
-    }
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+}
 `;
 
 //Header.js
 export const Head = styled.div`
   display: flex;
   flex-direction: column;
-  height: 845px;
+  height: 150vh;
   background-image: url(${HeadBack});
   background-repeat: no-repeat;
   background-size: 100%;
@@ -112,7 +112,7 @@ export const Divis = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 350px;
+  width: 100%;
   height: 290px;
 `;
 
